@@ -1,0 +1,187 @@
+.hamburger {
+		display: none;
+}
+.dropdown {
+    background: #e63d2f none repeat scroll 0 0;
+    display: none;
+    float: left;
+    height: 100%;
+    left: 0;
+    padding-bottom: 13%;
+    position: absolute;
+    top: 0;
+    width: 100%;
+    z-index: 666;
+}
+#close {
+    cursor: pointer;
+    position: absolute;
+    right: 4%;
+    top: 4%;
+    width: 3%;
+}
+@media only screen and (max-width: 1366px) {
+	.banner-slider h1{
+		font-size:150px;
+	}
+}
+@media only screen and (max-width: 1024px){
+	h2 {
+		font-size: 50px;
+		line-height: 70px;
+	}
+	/* .logo img {
+		max-width: 25%;
+	} */
+	.banner-slider h1 {
+		font-size: 120px;
+	}
+	.address {
+		bottom: 75px;
+		right: 50px;
+	}
+	#info{
+		font-size: 50px;
+		line-height: 60px;
+	}
+	.newsletter-section {
+		padding-top: 180px;
+	}
+	.cstm-btn{
+		display: inline-block;
+	}
+	#blue-bg .cstm-btn{
+		margin-top: 40px; 
+	}
+	
+}
+@media only screen and (max-width: 768px){
+	.logo{
+		padding: 50px 0 0 50px;
+	}
+	.logo img {
+		max-width: 30%;
+	} 
+	.banner-slider h1 {
+		font-size: 95px;
+	}
+	.address {
+		bottom: 85px;
+		right: 40px;
+	}
+	#info{
+		padding: 64px 0;
+	}
+	.cstm-container {
+		padding-left: 40px;
+		padding-right: 40px;
+	}
+	#about{
+		padding: 64px 0;
+	}
+	#blue-bg{
+		padding: 60px 0;
+	}
+	.hamburger {
+		display: block;
+		position: absolute;
+		right: 30px;
+		top: 52px;
+		z-index: 99;
+	}
+	#nav-icon1 {
+		cursor: pointer;
+		height: 68px;
+		position: relative;
+		transform: rotate(0deg);
+		transition: all 0.5s ease-in-out 0s;
+		width: 60px;
+	}
+	#nav-icon1 span {
+		background: #d3531a none repeat scroll 0 0;
+		border-radius: 9px;
+		display: block;
+		height: 6px;
+		left: 0;
+		opacity: 1;
+		position: absolute;
+		transform: rotate(0deg);
+		transition: all 0.25s ease-in-out 0s;
+		width: 100%;
+	}
+	#nav-icon1 span:nth-child(1) {
+		top: 0;
+	}
+	#nav-icon1 span:nth-child(2) {
+		top: 12px;
+	}
+	#nav-icon1 span:nth-child(3) {
+		top: 24px;
+	}
+	.navbar{
+		display: none;
+	}
+}
+@media only screen and (max-width: 767px){
+	h2 {
+		font-size: 30px;
+		line-height: 40px;
+	}
+	.logo {
+		padding: 30px 0 0 20px;
+		background-size: 430px;
+	}
+	.logo img {
+		max-width: 30%;
+	} 
+	.banner-slider h1 {
+		font-size: 42px;
+	}
+	.address {
+		bottom: 85px;
+		left: 0;
+		right: 0;
+		text-align: center;
+	}
+	#info {
+		padding: 30px 0;
+		font-size: 30px;
+		line-height: 40px;
+	}
+	.cstm-container {
+		padding-left: 20px;
+		padding-right: 20px;
+	}
+	#about{
+		padding-top: 30px;
+	}
+	#about h2 {
+		font-size: 40px;
+		margin: 0 0 20px 0;
+		line-height: 40px;
+	}
+	p {
+		font-family: circular;
+		font-size: 22px;
+		margin: 0;
+	}
+	.section-logo{
+		margin-bottom: 25px;
+	}
+	.section-logo .img-responsive {
+		max-width: 65%;
+		margin: 0 auto;
+	}
+	.section-logo .img-responsive {
+		max-width: 65%;
+	}
+	.newsletter-section {
+		padding-top: 0;
+	}
+}
+@media only screen and (max-width: 480px){
+	.logo img {
+		max-width: 50%;
+	}
+	
+}
